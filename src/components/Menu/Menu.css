@@ -1,0 +1,11 @@
+.menu-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 35%;
+}
+
+.menu-container li {
+	cursor: pointer;
+}

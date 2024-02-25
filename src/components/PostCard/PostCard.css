@@ -1,0 +1,121 @@
+.card-container {
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 10px;
+	background-color: #e6e5e5;
+}
+
+@media (max-width: 1024px) {
+	.card-container {
+		width: 100%;
+	}
+}
+
+.post-card {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: flex-starts;
+	padding: 10px 20px;
+	flex: 1 1 auto;
+	border-radius: 10px 10px 0 0;
+	background-color: #fff;
+}
+
+.card-img {
+	width: 45%;
+}
+
+.card-img img {
+	width: 100%;
+}
+
+.card-info {
+	width: 50%;
+}
+
+@media (max-width: 480px) {
+	.post-card {
+		flex-direction: column;
+	}
+
+	.card-img {
+		width: 100%;
+	}
+
+	.card-info {
+		width: 100%;
+	}
+}
+
+
+.card-info p {
+	text-align: justify;
+	text-indent: 5%;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+	gap: 25px;
+	background-color: #fff;
+	padding: 5px 20px;
+	border-bottom: 1px solid #696868;
+}
+
+.comments-container {
+	border-bottom: 1px solid #696868;
+	padding: 5px 20px;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-btn.ant-btn-icon-only {
+	background: none;
+	border: none;
+}
+
+.add-comment-container {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	padding: 5px 20px;
+	border-bottom: 1px solid #696868;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-input-outlined:hover {
+	border-color: #090a0c;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-input-outlined:focus,
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-input-outlined:focus-within {
+	border-color: rgb(15, 15, 15);
+	box-shadow: 0 0 0 3px rgba(25, 25, 26, 0.1);
+}
+
+.comment-button {
+	display: flex;
+	justify-content: end;
+	gap: 10px;
+	padding: 5px 20px;
+}
+
+.comment-button button {
+	background: none;
+	border: none;
+}
+
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+	color: #57606b;
+	border-color: none;
+	background: none;
+	transform: scale(1.2);
+}
+
+.no-comments {
+	color: #970303;
+	font-weight: bold;
+}

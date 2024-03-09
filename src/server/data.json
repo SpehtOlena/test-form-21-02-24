@@ -72,6 +72,12 @@
           "idUser": "d4e8",
           "photoUser": "https://robohash.org/Uunieke.pnset=set4",
           "username": "qizaz"
+        },
+        {
+          "body": "",
+          "idUser": "3cec",
+          "photoUser": "https://robohash.org/Yoooneeeikkeee.pngset=set4",
+          "username": "tenypyl"
         }
       ]
     },
@@ -169,6 +175,12 @@
       "password": "Pa$$w0rd!",
       "avatar": "https://robohash.org/NOSW.png?set=set4",
       "id": "f516"
+    },
+    {
+      "username": "tenypyl",
+      "password": "Pa$$w0rd!",
+      "avatar": "https://robohash.org/Yoooneeeikkeee.pngset=set4",
+      "id": "3cec"
     }
   ]
 }
